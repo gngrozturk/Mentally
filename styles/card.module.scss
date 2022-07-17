@@ -1,0 +1,32 @@
+$light-color: #f4f4f4;
+
+.container {
+  width: 330px;
+  height: 340px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+  margin: .75em;
+  &:hover {
+    transform: scale(1.0125);
+    cursor: pointer;
+  }
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.cardTitle {
+  text-align: center;
+  background-color: $light-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  font-weight: 400;
+}

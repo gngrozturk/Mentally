@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    display: flex;
+    max-width: 1100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.4em;
+  }

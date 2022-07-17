@@ -1,0 +1,22 @@
+$breakpoint-tablet: 810px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  margin: 1em 0;
+}
+
+.counter {
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5em;
+}
+@media (max-width: $breakpoint-tablet) {
+  .listItem {
+    text-align: center;
+  }
+}
