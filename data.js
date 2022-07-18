@@ -9,7 +9,7 @@ export const disorders = [
   },
   {
     id: 2,
-    name: "Şizo",
+    name: "Şizoid Mental Disorder",
     questions: [
       "The sinister plot to cheat the widow was uncovered by the police.",
       "When the bank guard spied the sinister-looking customer, he drew his gun.",

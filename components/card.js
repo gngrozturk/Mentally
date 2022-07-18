@@ -1,9 +1,8 @@
-import React, { useState } from "react";
 import Image from "next/image";
 import styles from "../styles/card.module.scss";
 import Link from "next/link";
 
-function Card({ title, src ,id}) {
+function Card({ title, src ,name}) {
   const slug = (title) => {
     let slug = title.toLowerCase();
     slug = slug.replaceAll(/ı/gi, "i");
@@ -20,7 +19,7 @@ function Card({ title, src ,id}) {
   };
 
   return (
-    <Link href="/disorders/[id]" as={`/disorders/${id}`}>
+    <Link href="/disorders/[name]" as={`/disorders/${slug(name)}`}>
       <a>
         <div className={styles.container}>
           <div className={styles.imgContainer}>

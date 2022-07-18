@@ -2,7 +2,6 @@ import styles from "../styles/index.module.scss";
 import Card from "../components/card";
 import Layout from "../components/layout";
 import { disorders } from "../data";
-import Link from "next/link";
 
 export async function getStaticProps() {
   return {
@@ -22,7 +21,7 @@ export default function Home({ disorderList }) {
           <Card
             title={disorder.name}
             src="/Paranoid.jpg"
-            id={disorder.id}
+            name={disorder.name}
             key={disorder.id}
           />
         ))}
