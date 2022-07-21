@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { disorders } from "../../data";
 import Checklist from "../../components/checkList";
 import Layout from "../../components/layout";
@@ -42,9 +43,14 @@ export const getStaticPaths = async () => {
 export default ({ disorder }) => {
   return (
     <Layout>
+      <Head>
+        <title>{disorder.name}</title>
+        <meta name="description" content={disorder.name}></meta>
+      </Head>
       <div>
         <Title text={disorder.name} />
         <Checklist questions={disorder.questions} />
+        <p>{disorder.definition}</p>
       </div>
     </Layout>
   );

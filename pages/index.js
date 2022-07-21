@@ -2,6 +2,7 @@ import styles from "../styles/index.module.scss";
 import Card from "../components/card";
 import Layout from "../components/layout";
 import { disorders } from "../data";
+import Title from "../components/title";
 
 export async function getStaticProps() {
   return {
@@ -14,7 +15,7 @@ export async function getStaticProps() {
 export default function Home({ disorderList }) {
   return (
     <Layout>
-      <h1>Welcome to Mentally !</h1>
+      <Title text="Welcome to Mentally" />
 
       <div className={styles.cards}>
         {disorderList.map((disorder) => (

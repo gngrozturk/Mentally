@@ -24,7 +24,7 @@ function Checklist({ questions }) {
         </div>
       ))}
       <p className={styles.counter}>
-        {questions.length} durumdan {checked.length} tanesi işaretlendi.
+        {checked.length} out of {questions.length} are checked.
       </p>
     </div>
   );
