@@ -3,6 +3,7 @@ import { disorders } from "../../data";
 import Checklist from "../../components/checkList";
 import Layout from "../../components/layout";
 import Title from "../../components/title";
+import Paragraph from "../../components/paragraph";
 
 const slug = (title) => {
   let slug = title.toLowerCase();
@@ -49,7 +50,7 @@ function DisorderPage({ disorder }) {
       </Head>
       <div>
         <Title text={disorder.name} />
-        <p>{disorder.definition}</p>
+        <Paragraph text={disorder.definition}/>
         <Checklist questions={disorder.questions} />
       </div>
     </Layout>
