@@ -21,7 +21,7 @@ export default function Home({ disorderList }) {
         {disorderList.map((disorder) => (
           <Card
             title={disorder.name}
-            src="/Paranoid.jpg"
+            src={disorder.img}
             name={disorder.name}
             key={disorder.id}
           />

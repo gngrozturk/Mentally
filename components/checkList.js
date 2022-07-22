@@ -15,19 +15,21 @@ function Checklist({ questions }) {
     setChecked(updatedList);
   };
 
-  return (
-    <div className={styles.container}>
-      {checkList.map((item, index) => (
-        <div key={index} className={styles.listItem}>
-          <label for="question">{item}</label>
-          <input value={item} type="checkbox" onChange={handleCheck} />
-        </div>
-      ))}
-      <p className={styles.counter}>
-        {checked.length} out of {questions.length} are checked.
-      </p>
-    </div>
-  );
+  if (checkList) {
+    return (
+      <div className={styles.container}>
+        {checkList.map((item, index) => (
+          <div key={index} className={styles.listItem}>
+            <label for="question">{item}</label>
+            <input value={item} type="checkbox" onChange={handleCheck} />
+          </div>
+        ))}
+        <p className={styles.counter}>
+          {checked.length} out of {questions.length} are checked.
+        </p>
+      </div>
+    );
+  } else return null;
 }
 
 export default Checklist;

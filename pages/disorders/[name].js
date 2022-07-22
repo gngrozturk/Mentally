@@ -49,8 +49,8 @@ export default ({ disorder }) => {
       </Head>
       <div>
         <Title text={disorder.name} />
-        <Checklist questions={disorder.questions} />
         <p>{disorder.definition}</p>
+        <Checklist questions={disorder.questions} />
       </div>
     </Layout>
   );
