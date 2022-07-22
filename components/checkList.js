@@ -20,7 +20,7 @@ function Checklist({ questions }) {
       <div className={styles.container}>
         {checkList.map((item, index) => (
           <div key={index} className={styles.listItem}>
-            <label for="question">{item}</label>
+            <label htmlFor="question">{item}</label>
             <input value={item} type="checkbox" onChange={handleCheck} />
           </div>
         ))}
