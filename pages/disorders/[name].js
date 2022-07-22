@@ -40,7 +40,7 @@ export const getStaticPaths = async () => {
   };
 };
 
-export default ({ disorder }) => {
+function DisorderPage({ disorder }) {
   return (
     <Layout>
       <Head>
@@ -54,4 +54,6 @@ export default ({ disorder }) => {
       </div>
     </Layout>
   );
-};
+}
+
+export default DisorderPage;
