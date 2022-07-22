@@ -24,7 +24,7 @@ export const disorders = [
     questions: [
       "Avoids occupational activities that involve significant interpersonal contact, because of fears of criticism, disapproval, or rejection.",
       "Is unwilling to get involved with people unless certain of being liked.",
-      "Shows restraint within intimate relationships because of the fear of being shamed or ridiculed",
+      "Shows restraint within intimate relationships because of the fear of being shamed or ridiculed.",
       "Is preoccupied with being criticized or rejected in social situations.",
       "Is inhibited in new interpersonal situations because of feelings of inadequacy.",
       "Views self as socially inept, personally unappealing, or inferior to others.",
@@ -64,7 +64,7 @@ export const disorders = [
       "Is interpersonally exploitative, i.e., takes advantage of others to achieve his or her own ends",
       "Lacks empathy: is unwilling to recognize or identify with the feelings and needs of others.",
       "Is often envious of others or believes that others are envious of him or her.",
-      "Shows arrogant, haughty behaviors or attitudes",
+      "Shows arrogant, haughty behaviors or attitudes.",
     ],
   },
   {
@@ -93,12 +93,12 @@ export const disorders = [
     questions: [
       "Ideas of reference (excluding delusions of reference).",
       "Odd beliefs or magical thinking that influences behavior and is inconsistent with subcultural norms (e.g., superstitiousness, belief in clairvoyance, telepathy, or “sixth sense”; in children and adolescents, bizarre fantasies or preoccupations).",
-      "Unusual perceptual experiences, including bodily illusions",
+      "Unusual perceptual experiences, including bodily illusions.",
       "Odd thinking and speech (e.g., vague, circumstantial, metaphorical, overelaborate, or stereotyped).",
       "Suspiciousness or paranoid ideation.",
       "Inappropriate or constricted affect.",
       "Behavior or appearance that is odd, eccentric, or peculiar.",
-      "Lack of close friends or confidants other than first-degree relatives",
+      "Lack of close friends or confidants other than first-degree relatives.",
       "Excessive social anxiety that does not diminish with familiarity and tends to be associated with paranoid fears rather than negative judgments about self.",
       "Does not occur exclusively during the course of Schizophrenia, a Mood Disorder With Psychotic Features, another Psychotic Disorder, or a Pervasive Developmental Disorder.",
     ],

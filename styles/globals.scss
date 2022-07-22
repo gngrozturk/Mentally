@@ -13,6 +13,12 @@ a {
   text-decoration: none;
 }
 
+input[type="checkbox"] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
 h1,
 h3 {
   margin: 0;
